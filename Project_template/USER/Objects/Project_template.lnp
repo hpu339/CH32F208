@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+".\objects\startup_ch32f20x_d8w.o"
+".\objects\main.o"
+".\objects\system_ch32f20x.o"
+".\objects\ch32f20x_it.o"
+".\objects\ch32f20x_gpio.o"
+".\objects\ch32f20x_rcc.o"
+".\objects\ch32f20x_misc.o"
+--strict --scatter ".\Objects\Project_template.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Project_template.map" -o .\Objects\Project_template.axf
