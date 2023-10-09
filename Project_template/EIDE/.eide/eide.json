@@ -23,13 +23,13 @@
         "name": "Platform",
         "files": [
           {
-            "path": "../../../Platform/SRC/ch32f20x_gpio.c"
+            "path": "../Platform/SRC/ch32f20x_gpio.c"
           },
           {
-            "path": "../../../Platform/SRC/ch32f20x_rcc.c"
+            "path": "../Platform/SRC/ch32f20x_rcc.c"
           },
           {
-            "path": "../../../Platform/SRC/ch32f20x_misc.c"
+            "path": "../Platform/SRC/ch32f20x_misc.c"
           }
         ],
         "folders": []
@@ -38,7 +38,7 @@
         "name": "STARTUP",
         "files": [
           {
-            "path": "../../../CORE/startup_ch32f20x_D8W.s"
+            "path": "../CORE/startup_ch32f20x_D8W.s"
           }
         ],
         "folders": []
@@ -47,13 +47,13 @@
         "name": "USER",
         "files": [
           {
-            "path": "../../ch32f20x_it.c"
+            "path": "../USER/ch32f20x_it.c"
           },
           {
-            "path": "../../main.c"
+            "path": "../USER/main.c"
           },
           {
-            "path": "../../system_ch32f20x.c"
+            "path": "../USER/system_ch32f20x.c"
           }
         ],
         "folders": []
@@ -64,7 +64,7 @@
   "deviceName": null,
   "packDir": null,
   "miscInfo": {
-    "uid": "ffbed7a6a83eef1c95bd91a247fd9178"
+    "uid": "05015344ed43c11551c8da6f1b5aee7f"
   },
   "targets": {
     "Target 1": {
@@ -199,11 +199,11 @@
       "custom_dep": {
         "name": "default",
         "incList": [
-          "../../../Platform/INC",
-          "../..",
-          "../../../CORE",
+          "../Platform/INC",
+          "../USER",
+          "../CORE",
           ".cmsis/include",
-          "../../RTE/_Target 1",
+          "../USER/RTE/_Target 1",
           ".eide/deps"
         ],
         "libList": [],
