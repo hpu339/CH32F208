@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "debug.h": "c",
+            "ch32f20x.h": "c",
+            "ch32f20x_conf.h": "c"
+        }
+    },
+    "extensions": {}
+}

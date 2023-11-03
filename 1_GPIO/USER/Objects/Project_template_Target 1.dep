@@ -1,0 +1,125 @@
+Dependencies for Project 'Project_template', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (..\CORE\startup_ch32f20x_D8W.s)(0x638DB3B4)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -I ../Platform/INC -I ../CORE -I ../USER-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_ch32f20x_d8w.o)
+F (.\main.c)(0x6545174F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../CH32F208LIB/INC-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/main.o -MD)
+I (..\CH32F208LIB\INC\debug.h)(0x63ABB9E4)
+I (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\CORE\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\USER\system_ch32f20x.h)(0x638DA7BE)
+I (..\USER\ch32f20x_conf.h)(0x65425FA1)
+I (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)
+I (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)
+I (..\USER\ch32f20x_it.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+F (.\system_ch32f20x.c)(0x638DA81A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../CH32F208LIB/INC-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/system_ch32f20x.o -MD)
+I (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\CORE\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\USER\system_ch32f20x.h)(0x638DA7BE)
+I (..\USER\ch32f20x_conf.h)(0x65425FA1)
+I (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)
+I (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)
+I (..\USER\ch32f20x_it.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)
+F (.\ch32f20x_it.c)(0x638DA7BE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../CH32F208LIB/INC-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/ch32f20x_it.o -MD)
+I (..\USER\ch32f20x_it.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\CORE\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\USER\system_ch32f20x.h)(0x638DA7BE)
+I (..\USER\ch32f20x_conf.h)(0x65425FA1)
+I (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)
+I (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)
+I (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)
+F (..\CH32F208LIB\SRC\ch32f20x_gpio.c)(0x652FFD97)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../CH32F208LIB/INC-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/ch32f20x_gpio.o -MD)
+I (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)
+I (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\CORE\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\USER\system_ch32f20x.h)(0x638DA7BE)
+I (..\USER\ch32f20x_conf.h)(0x65425FA1)
+I (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)
+I (..\USER\ch32f20x_it.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)
+F (..\CH32F208LIB\SRC\ch32f20x_misc.c)(0x638DA81A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../CH32F208LIB/INC-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/ch32f20x_misc.o -MD)
+I (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\CORE\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\USER\system_ch32f20x.h)(0x638DA7BE)
+I (..\USER\ch32f20x_conf.h)(0x65425FA1)
+I (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)
+I (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)
+I (..\USER\ch32f20x_it.h)(0x638DA7BE)
+F (..\CH32F208LIB\SRC\ch32f20x_rcc.c)(0x63ABED50)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../CH32F208LIB/INC-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/ch32f20x_rcc.o -MD)
+I (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\CORE\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\USER\system_ch32f20x.h)(0x638DA7BE)
+I (..\USER\ch32f20x_conf.h)(0x65425FA1)
+I (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)
+I (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)
+I (..\USER\ch32f20x_it.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)
+F (..\CH32F208LIB\SRC\ch32f20x_usart.c)(0x639C3455)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../CH32F208LIB/INC-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/ch32f20x_usart.o -MD)
+I (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)
+I (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\CORE\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\USER\system_ch32f20x.h)(0x638DA7BE)
+I (..\USER\ch32f20x_conf.h)(0x65425FA1)
+I (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)
+I (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)
+I (..\USER\ch32f20x_it.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)
+F (..\CH32F208LIB\SRC\debug.c)(0x65425ECC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../USER -I ../CORE -I ../CH32F208LIB/INC-I./RTE/_Target_1-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/PACK/Keil/WCH32F2xx_DFP/1.0.2/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/debug.o -MD)
+I (..\CH32F208LIB\INC\debug.h)(0x63ABB9E4)
+I (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\CORE\core_cm3.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\USER\system_ch32f20x.h)(0x638DA7BE)
+I (..\USER\ch32f20x_conf.h)(0x65425FA1)
+I (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)
+I (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)
+I (..\USER\ch32f20x_it.h)(0x638DA7BE)
+I (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+F (..\CH32F208LIB\INC\ch32f20x.h)(0x65425F18)()
+F (..\CH32F208LIB\INC\ch32f20x_gpio.h)(0x653E035E)()
+F (..\CH32F208LIB\INC\ch32f20x_misc.h)(0x638DA7BE)()
+F (..\CH32F208LIB\INC\ch32f20x_rcc.h)(0x638DA7BE)()
+F (..\CH32F208LIB\INC\debug.h)(0x63ABB9E4)()
+F (..\CH32F208LIB\INC\ch32f20x_usart.h)(0x638DA7BD)()

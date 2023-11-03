@@ -1,0 +1,269 @@
+{
+  "name": "Project_template",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "CH32F208LIB_INC",
+        "files": [
+          {
+            "path": "../CH32F208LIB/INC/ch32f20x_gpio.h"
+          },
+          {
+            "path": "../CH32F208LIB/INC/ch32f20x_misc.h"
+          },
+          {
+            "path": "../CH32F208LIB/INC/ch32f20x_rcc.h"
+          },
+          {
+            "path": "../CH32F208LIB/INC/ch32f20x_usart.h"
+          },
+          {
+            "path": "../CH32F208LIB/INC/ch32f20x.h"
+          },
+          {
+            "path": "../CH32F208LIB/INC/debug.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "CH32F208LIB_SRC",
+        "files": [
+          {
+            "path": "../CH32F208LIB/SRC/ch32f20x_gpio.c"
+          },
+          {
+            "path": "../CH32F208LIB/SRC/ch32f20x_misc.c"
+          },
+          {
+            "path": "../CH32F208LIB/SRC/ch32f20x_rcc.c"
+          },
+          {
+            "path": "../CH32F208LIB/SRC/ch32f20x_usart.c"
+          },
+          {
+            "path": "../CH32F208LIB/SRC/debug.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HARDWARE",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "STARTUP",
+        "files": [
+          {
+            "path": "../CORE/startup_ch32f20x_D8W.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "USER",
+        "files": [
+          {
+            "path": "../USER/ch32f20x_it.c"
+          },
+          {
+            "path": "../USER/main.c"
+          },
+          {
+            "path": "../USER/system_ch32f20x.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "05015344ed43c11551c8da6f1b5aee7f"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x8000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x28000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f1x",
+          "interface": "stlink",
+          "baseAddr": "0x08000000"
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "cortex_m",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/target 1.pyocd.yaml"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../USER",
+          "../CORE",
+          "../CH32F208LIB/INC",
+          ".cmsis/include"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    }
+  },
+  "version": "3.3"
+}
