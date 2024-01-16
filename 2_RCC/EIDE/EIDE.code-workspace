@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "debug.h": "c",
+            "ch32f20x.h": "c",
+            "ch32f20x_conf.h": "c",
+            "ch32f20x_gpio.h": "c",
+            "hal_gpio.h": "c",
+            "ch32f20x_it.h": "c",
+            "ch32f20x_tim.h": "c",
+            "ch32f20x_misc.h": "c",
+            "ch32f20x_usart.h": "c",
+            "ch32f20x_rcc.h": "c"
+        },
+        "fileheader.cursorMode": {},
+        "fileheader.customMade": {}
+    },
+    "extensions": {}
+}
