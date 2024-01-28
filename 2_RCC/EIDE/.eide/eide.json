@@ -70,6 +70,15 @@
         "files": [
           {
             "path": "../HARDWARE/HAL_GPIO.c"
+          },
+          {
+            "path": "../HARDWARE/HAL_GPIO.h"
+          },
+          {
+            "path": "../HARDWARE/HAL_TIMER.c"
+          },
+          {
+            "path": "../HARDWARE/HAL_TIMER.h"
           }
         ],
         "folders": []
